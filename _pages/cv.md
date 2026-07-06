@@ -11,54 +11,34 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
 
-Work experience
+- **Nanjing University** — Software Engineering
+
+Research interests
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+- Distributed systems testing and debugging
+- Deterministic failure reproduction
+- Deep learning framework and operator testing
+- Static analysis and fault localization
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
+
+<ul>{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
+
+Selected projects
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
+
+- [RediI](https://github.com/SSCT-Lab/RediI) — deterministic reproduction of distributed-system failures
+- [Craft](https://github.com/SSCT-Lab/craft) — cross-framework repair-assisted fuzzing for equivalent deep learning operators
+- [LogHound](https://github.com/SSCT-Lab/loghound) — method-level fault localization using static analysis, execution paths, coverage, and stack traces
+
+Contact
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
+- Email: [zheyuanlin@smail.nju.edu.cn](mailto:zheyuanlin@smail.nju.edu.cn)
+- GitHub: [MartyLinZY](https://github.com/MartyLinZY)
+- Blog: [martylinzy.github.io](https://martylinzy.github.io/)
